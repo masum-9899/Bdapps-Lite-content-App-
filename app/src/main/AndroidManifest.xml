@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bdapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bdapps_foreground"
+        android:label="bdappsLite"
+        android:roundIcon="@mipmap/bdapps_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash"></activity>
+        <activity android:name=".Abbre1" />
+        <activity android:name=".quran2" />
+        <activity android:name=".quran1" />
+        <activity android:name=".nobir2" />
+        <activity android:name=".nobir1" />
+        <activity android:name=".gk2" />
+        <activity android:name=".gk1" />
+        <activity android:name=".invention1" />
+        <activity android:name=".rajdhani1" />
+        <activity android:name=".puzzle4" />
+        <activity android:name=".puzzle3" />
+        <activity android:name=".puzzle2" />
+        <activity android:name=".puzzle1" />
+        <activity android:name=".fruit3" />
+        <activity android:name=".fruit2" />
+        <activity android:name=".fruit1" />
+        <activity android:name=".voca3" />
+        <activity android:name=".voca2" />
+        <activity android:name=".hadis3" />
+        <activity android:name=".hadis2" />
+        <activity android:name=".hadis1" />
+        <activity android:name=".Synonym" />
+        <activity android:name=".NobirBani" />
+        <activity android:name=".Rajdhani" />
+        <activity android:name=".quran" />
+        <activity android:name=".Invention" />
+        <activity android:name=".Gunah" />
+        <activity android:name=".gk" />
+        <activity android:name=".Benefit" />
+        <activity android:name=".FbCaption" />
+        <activity android:name=".Jokes" />
+        <activity android:name=".Puzzle" />
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".HadisButton" />
+        <activity android:name=".Vocabulary" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
